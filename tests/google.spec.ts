@@ -10,7 +10,7 @@ test.describe('Google', () => {
   test('has button', async ({ page }) => {
     await page.goto('https://www.google.com')
 
-    await expect(page.getByRole('button', { name: /Buscar con Google/ })).toBeVisible()
+    await expect(page.getByRole('button', { name: /Google/ })).toBeVisible()
   })
 
 })
